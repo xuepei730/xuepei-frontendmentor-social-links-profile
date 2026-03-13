@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+  border-radius: 500px;
+  width: 80px;
+  height: 80px;
+}
+
+.profile-box {
+    background-color: hsl(0, 0%, 12%);
+    height: 530px;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 8px;
+    margin-top: 0;
+}
+
+.bio {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 8px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    border-style: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    margin-top: 15px;
+    width: 275px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.profile-links {
+    display: grid;
+
+}
